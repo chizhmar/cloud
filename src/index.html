@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+	@@include('html/head.html', {
+		'title': 'stone a cloud'
+	})
+	<body>
+		<div class="wrapper">
+		@@include('html/header.html', {})
+		<main class="page">
+			<div data-observ></div>
+			<section class="cloud">
+					<div class="cloud__container">
+					<video id="video-module" poster="images/bg/bg.png" src="static/30secEdit02.mov" muted class="video-module__item"></video>
+					<div id="cloud__body" class="cloud__body">
+						<h2 class="cloud__title">
+							Timeless as a stone
+							<!-- <br> -->
+							Unexpected as a cloud</h2>
+						<p class="cloud__desc">At Stone & Cloud we heighten the dining experience with unexpected details in beautifully crafted porcelain.</p>
+						<div class="cloud__buttons">
+							<a id="play-btn" class="cloud__play btn" href="#">Play video</a>
+							<a class="cloud__now btn" href="#">Shop now</a>
+						</div>
+					</div>
+					</div>
+			</section>
+			<section class="product">
+				<div class="product__container">
+					<h2 class="product__title">Featured product</h2>
+					<div class="product__box">
+						<a href="#" class="product__item up"><img src="@img/cup/cup_1.png" alt=""></a>
+						<a href="#" class="product__item"><img src="@img/cup/cup_2.2.png" alt=""></a>
+						<a href="#" class="product__item"><img src="@img/cup/cup_3.3.png" alt=""></a>
+						<a href="#" class="product__item down"><img src="@img/cup/cup_4.4.png" alt=""></a>
+						<div class="product__body info">
+							<h2 class="info__title">Dining Design</h2>
+							<div class="info__subtitle">Cup Small</div>
+							<p class="info__desc">This espresso cup is our design favourite. The matching saucer is cut through and fits the cup precisely to give it the hold it needs and at the same time it can be used as a separate piece of tableware.</p>
+							<div class="info__price">€48,00</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="who-we">
+				<div class="who-we__container">
+					<div class="who-we__content">
+						<h2 class="who-we__title">Who we are</h2>
+						<p class="who-we__desc">Stone & Cloud is an upcoming European brand that designs andproduces contemporary lifestylecollections with Asian flair.
+							Working with the finest materials Asia has to offer, right there from thecradle, we provide a rare combination of craftsmanship and neo modern twist.
+							<br>
+							<br>
+							Stone & Cloud brandwas born in Europe, with a passion for home accessories and interiordecor. We are young, but we have travelled far, from East to West, fromthe finest traditions to the 21st century.
+						</p>
+						<a href="#" class="who-we__link">Read more</a>
+					</div>
+					<div class="who-we__slider swiper">
+						<div class="who-we__swiper swiper-wrapper">
+							<div class="who-we__slide swiper-slide">
+								<div class="who-we__image">
+									<img src="@img/logo/Mariya.png" alt="Slide 1">
+								</div>
+							</div>
+							<div class="who-we__slide swiper-slide">
+								<div class="who-we__image">
+									<img src="@img/logo/Mariya.png" alt="Slide 1">
+								</div>
+							</div>
+							<div class="who-we__slide swiper-slide">
+								<div class="who-we__image">
+									<img src="@img/logo/Mariya.png" alt="Slide 1">
+								</div>
+							</div>
+							<div class="who-we__slide swiper-slide">
+								<div class="who-we__image">
+									<img src="@img/logo/Mariya.png" alt="Slide 1">
+								</div>
+							</div>
+							<div class="who-we__button-prev swiper-button-prev">1</div>
+							<div class="who-we__button-next swiper-button-next">2</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		@@include('html/footer.html', {})
+		</div>
+		@@include('html/script.html', {})
+	</body>
+</html> 
